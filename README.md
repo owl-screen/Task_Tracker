@@ -31,20 +31,6 @@ API	RESTful architecture
 Build Tool	Maven
 Version Control	Git, GitHub
 
-🗂️ Project Structure
-Task_Tracker/
-├── backend/               # Spring Boot backend
-│   ├── src/               # Source code (controllers, services, entities)
-│   ├── pom.xml            # Maven configuration
-│   └── Dockerfile         # Optional backend containerization
-│
-├── frontend/              # React + TypeScript frontend
-│   ├── src/               # React components
-│   ├── package.json       # NPM configuration
-│   └── Dockerfile         # Optional frontend containerization
-│
-└── docker-compose.yml     # Runs backend + PostgreSQL + frontend
-
 ⚙️ Installation & Setup
 1. Clone the repository
 git clone https://github.com/owl-screen/Task_Tracker.git
